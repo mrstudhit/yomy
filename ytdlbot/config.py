@@ -55,7 +55,7 @@ ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", True)
 # Stripe setting
 PROVIDER_TOKEN = os.getenv("PROVIDER_TOKEN") or "1234"
 
-PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", True
+PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", True)
 ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", True)
 
 FREE_DOWNLOAD = os.getenv("FREE_DOWNLOAD", 5)
