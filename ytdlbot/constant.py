@@ -23,7 +23,7 @@ from utils import get_func_queue
 
 class BotText:
     start = "Welcome to YouTube Download📥 bot by Kshitijsharma👨🏻‍💻. Type /help for more information."
-    rate_limit = "**I'm being rate limited by Telegram. Please expect a delay in processing your request.**"
+    rate_limit = "**unlimited**"
     help = f"""
 1. This bot should work at all times. If it doesn't, please wait for a few minutes and try sending the link again.
 
