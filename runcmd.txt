@@ -1,0 +1,1 @@
+gunicorn app:app & python ytdlbot/ytdl_bot.py
