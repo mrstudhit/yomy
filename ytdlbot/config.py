@@ -50,13 +50,13 @@ AUDIO_FORMAT = os.getenv("AUDIO_FORMAT")
 ARCHIVE_ID = os.getenv("ARCHIVE_ID")
 
 IPv6 = os.getenv("IPv6", False)
-ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", False)
+ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", True)
 
 # Stripe setting
 PROVIDER_TOKEN = os.getenv("PROVIDER_TOKEN") or "1234"
 
-PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", False)
-ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", False)
+PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", True)
+ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", True)
 
 FREE_DOWNLOAD = os.getenv("FREE_DOWNLOAD", 5)
 TOKEN_PRICE = os.getenv("BUY_UNIT", 20)  # one USD=20 credits
